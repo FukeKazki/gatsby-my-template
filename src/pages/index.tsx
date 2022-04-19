@@ -1,6 +1,12 @@
+import { css } from "@emotion/react";
+
+const text = css`
+  color: red;
+`;
+
 const IndexPage = () => {
   return (
-    <div>
+    <div css={text}>
       <p>hello</p>
     </div>
   );
