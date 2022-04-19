@@ -1458,6 +1458,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.2.0":
+  version: 7.17.9
+  resolution: "@babel/runtime@npm:7.17.9"
+  dependencies:
+    regenerator-runtime: ^0.13.4
+  checksum: 4d56bdb82890f386d5a57c40ef985a0ed7f0a78f789377a2d0c3e8826819e0f7f16ba0fe906d9b2241c5f7ca56630ef0653f5bb99f03771f7b87ff8af4bf5fe3
+  languageName: node
+  linkType: hard
+
 "@babel/standalone@npm:^7.15.5":
   version: 7.16.6
   resolution: "@babel/standalone@npm:7.16.6"
@@ -5935,7 +5944,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:^4.3.2, debug@npm:^4.3.3":
+"debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -6717,6 +6726,22 @@ __metadata:
     debug: ^3.2.7
     resolve: ^1.20.0
   checksum: 6266733af1e112970e855a5bcc2d2058fb5ae16ad2a6d400705a86b29552b36131ffc5581b744c23d550de844206fb55e9193691619ee4dbf225c4bde526b1c8
+  languageName: node
+  linkType: hard
+
+"eslint-import-resolver-typescript@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "eslint-import-resolver-typescript@npm:2.7.1"
+  dependencies:
+    debug: ^4.3.4
+    glob: ^7.2.0
+    is-glob: ^4.0.3
+    resolve: ^1.22.0
+    tsconfig-paths: ^3.14.1
+  peerDependencies:
+    eslint: "*"
+    eslint-plugin-import: "*"
+  checksum: 1d81b657b1f73bf95b8f0b745c0305574b91630c1db340318f3ca8918e206fce20a933b95e7c419338cc4452cb80bb2b2d92acaf01b6aa315c78a332d832545c
   languageName: node
   linkType: hard
 
@@ -7944,10 +7969,12 @@ __metadata:
     dotenv: ^10.0.0
     eslint: ^8.13.0
     eslint-config-prettier: ^8.5.0
+    eslint-import-resolver-typescript: ^2.7.1
     eslint-plugin-import: ^2.26.0
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.29.4
     gatsby: ^4.4.0
+    gatsby-plugin-alias-imports: ^1.0.5
     gatsby-plugin-emotion: ^7.4.0
     gatsby-plugin-image: ^2.4.0
     gatsby-plugin-sharp: ^4.4.0
@@ -7975,6 +8002,17 @@ __metadata:
     lodash: ^4.17.21
     micromatch: ^4.0.4
   checksum: e0966120735a2123893f4af896f9344f8f4176fb44b32670531378f6a3579939a1deb35c93bd7a23bd6c914e6e674062df95617082d4d380d4af906d13c1741a
+  languageName: node
+  linkType: hard
+
+"gatsby-plugin-alias-imports@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "gatsby-plugin-alias-imports@npm:1.0.5"
+  dependencies:
+    "@babel/runtime": ^7.2.0
+  peerDependencies:
+    gatsby: ">2.0.0"
+  checksum: acf5c1b3fb9502d8f931fceb5502827480ede2a04b97950282b9c4eea1c3a0e72e251fb38a39ed92a7ea7f3e8ac9043e51bad2a9c5508d202cb66ceb1975eb42
   languageName: node
   linkType: hard
 
