@@ -1,16 +1,8 @@
-import { css } from "@emotion/react";
-import { Button } from "~/components/shared/Button";
-
-const text = css`
-  color: red;
-`;
+import { Index } from "~/components/template/Index";
 
 const IndexPage = () => {
   return (
-    <div css={text}>
-      <p>hello</p>
-      <Button>あは</Button>
-    </div>
+    <Index />
   );
 };
 
